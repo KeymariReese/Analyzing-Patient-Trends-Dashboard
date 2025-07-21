@@ -68,7 +68,7 @@ Built filters using slicers for Age Group, Gender, Condition
 🧪 What’s the test result breakdown by medication and gender?
 
 Dashboard Preview
-📷 Healthcare Dashboard Screenshot (Replace with real GitHub or image link)
+📷 https://github.com/KeymariReese/Analyzing-Patient-Trends-Dashboard/blob/main/Screenshot%20(60).png
 
 🙌 Let’s Connect
 If you're working in healthcare or exploring data storytelling, I'd love to connect!
