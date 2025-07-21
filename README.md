@@ -5,65 +5,69 @@ This dashboard explores how medication relates to abnormal test results across a
 50,000+ rows of simulated hospital patient records
 
 Includes:
-
 Patient demographics (age, gender, blood type)
-
 Medical condition and medication info
-
 Admission and discharge details
-
 Billing amounts, doctors, hospitals, and test results
+
+
 
 📌 Project Summary
 Explored healthcare patterns through:
-
 💊 Correlations between medication and abnormal test results
-
 🧓 Medical condition frequency by age group
-
 🩸 Most common conditions based on blood type
-
 🧪 Test result outcomes segmented by gender and medication
-
 🧾 Trends in billing amounts and average length of stay
-
 📊 Breakdown by admission type, insurance provider, and hospital
+
+
 
 🛠️ Tools & Skills Used
 Excel
-
 Data cleaning and formatting
-
 Grouped age ranges (e.g., Teen, Middle Age)
 
+
+
 SQL
-
 Filtering, grouping, and aggregation
-
 CTEs and advanced functions like ROW_NUMBER()
 
+
+
 Power BI
-
 Dashboard layout and visualizations
-
 Card KPIs, bar/column charts, tree maps, slicers
 
-DAX
 
+
+DAX
 Custom metrics like average stay and cost per age group
 
-Data storytelling
 
+
+Data storytelling
 Clear visuals tied to healthcare strategy questions
+
+
 
 📁 Files Included
 README.md – This file
 
+
+
 Healthcare Patient Insights Dashboard.pbix – Power BI file
+
+
 
 SQL_queries.sql – All key queries used
 
+
+
 healthcare_dataset_set.xlsx – Final cleaned dataset
+
+
 
 🚀 Learning Goals
 Clean large, multi-column datasets efficiently in Excel
@@ -74,6 +78,8 @@ Build engaging Power BI dashboards with insights for decision-makers
 
 Practice healthcare-specific data analysis and communication
 
+
+
 🔄 Project Workflow
 1. 🧹 Excel Data Cleaning
 Removed blank or duplicate rows
@@ -81,6 +87,8 @@ Removed blank or duplicate rows
 Standardized column formats (e.g., Gender = "Male" or "Female")
 
 Created a new Age Group column for grouping analysis
+
+
 
 2. 🧾 SQL Querying
 Analyzed:
@@ -95,6 +103,8 @@ Used:
 
 CASE, IN, GROUP BY, ROW_NUMBER() for logic and insights
 
+
+
 3. 📊 Power BI Dashboard
 Created KPIs: patient count, avg stay, avg billing
 
@@ -108,6 +118,10 @@ Tree maps and slicers (filters by gender, age group, etc.)
 
 Made visuals interactive and easy to navigate for stakeholders
 
+
+
+
+
 ❓ Questions Answered
 🩸 Which blood types show higher risk for specific conditions?
 
@@ -118,6 +132,8 @@ Made visuals interactive and easy to navigate for stakeholders
 🧾 Which groups incur the highest billing costs?
 
 🧪 How do gender and medication relate to test outcomes?
+
+
 
 Dashboard Preview
 📷 https://github.com/KeymariReese/Analyzing-Patient-Trends-Dashboard/blob/main/Screenshot%20(60).png
