@@ -1,102 +1,123 @@
 # Healthcare Patient Insights Dashboard (Power BI + SQL + Excel)
 This dashboard explores how medication relates to abnormal test results across age groups. Older adults showed the highest abnormalities, raising questions about treatment effectiveness. Additional visuals offer insights on patient demographics and admission trends.
 
-
 🗂️ Dataset Used
-Simulated patient records with over 50,000 rows
+50,000+ rows of simulated hospital patient records
 
-Includes demographics, insurance, conditions, admission details, test results, and medication
+Includes:
+
+Patient demographics (age, gender, blood type)
+
+Medical condition and medication info
+
+Admission and discharge details
+
+Billing amounts, doctors, hospitals, and test results
 
 📌 Project Summary
-Using a detailed healthcare dataset, I created an interactive Power BI report to explore:
+Explored healthcare patterns through:
 
-💊 Medication correlations with abnormal test results
+💊 Correlations between medication and abnormal test results
 
 🧓 Medical condition frequency by age group
 
-🩸 Most common medical conditions by blood type
+🩸 Most common conditions based on blood type
 
-🧪 Distribution of test result outcomes
+🧪 Test result outcomes segmented by gender and medication
 
-🧾 Billing and average length of stay
+🧾 Trends in billing amounts and average length of stay
 
-📊 Trends in admission type, insurance, and gender breakdown
+📊 Breakdown by admission type, insurance provider, and hospital
 
 🛠️ Tools & Skills Used
-Excel – Data cleaning and column creation (e.g. age grouping)
+Excel
 
-SQL – Filtering, aggregation, and CTEs for deeper insights
+Data cleaning and formatting
 
-Power BI – Data modeling, interactive dashboard building
+Grouped age ranges (e.g., Teen, Middle Age)
 
-DAX – Calculated columns and KPIs (e.g. average stay)
+SQL
 
-Data storytelling – Presenting analytical findings visually
+Filtering, grouping, and aggregation
+
+CTEs and advanced functions like ROW_NUMBER()
+
+Power BI
+
+Dashboard layout and visualizations
+
+Card KPIs, bar/column charts, tree maps, slicers
+
+DAX
+
+Custom metrics like average stay and cost per age group
+
+Data storytelling
+
+Clear visuals tied to healthcare strategy questions
 
 📁 Files Included
-README.md – You're here!
+README.md – This file
 
-Healthcare Patient Insights Dashboard.pbix
+Healthcare Patient Insights Dashboard.pbix – Power BI file
 
-SQL_queries.sql
+SQL_queries.sql – All key queries used
 
-cleaned_healthcare_dataset.xlsx
+healthcare_dataset_set.xlsx – Final cleaned dataset
 
 🚀 Learning Goals
-This project helped me:
+Clean large, multi-column datasets efficiently in Excel
 
-Clean and prep data efficiently in Excel
+Use SQL to extract trends in real-world health data
 
-Use SQL to query patterns in large medical datasets
+Build engaging Power BI dashboards with insights for decision-makers
 
-Build interactive dashboards with accessible visual insights
+Practice healthcare-specific data analysis and communication
 
-Practice healthcare-focused analysis and storytelling
+🔄 Project Workflow
+1. 🧹 Excel Data Cleaning
+Removed blank or duplicate rows
 
-Strengthen my understanding of how data supports clinical strategy
+Standardized column formats (e.g., Gender = "Male" or "Female")
 
-🔄 Process Overview
-1. 🧹 Data Cleaning in Excel
-Grouped ages into segments (Teen, Middle Age, Senior)
+Created a new Age Group column for grouping analysis
 
-Removed excess rows, handled formatting issues
+2. 🧾 SQL Querying
+Analyzed:
 
-Added “Age Group” and cleaned column values for consistency
+Most frequent medical conditions by blood type
 
-2. 📋 SQL Querying & Exploration
-Wrote queries to:
+Average billing per doctor and hospital
 
-Identify most common conditions by blood type
+Distribution of abnormal test results by medication
 
-Compare spending trends across age groups
+Used:
 
-Investigate test result distributions by medication
+CASE, IN, GROUP BY, ROW_NUMBER() for logic and insights
 
-Used CASE, IN, GROUP BY, and ROW_NUMBER() logic
+3. 📊 Power BI Dashboard
+Created KPIs: patient count, avg stay, avg billing
 
-3. 📊 Power BI Dashboarding
-Created card KPIs: patient count, avg billing, avg stay
+Designed with:
 
-Designed visual breakdowns using:
+Clustered column charts
 
-Clustered bar charts
+Pie and donut visuals
 
-Pie charts and donut charts
+Tree maps and slicers (filters by gender, age group, etc.)
 
-Tree maps and stacked visuals
+Made visuals interactive and easy to navigate for stakeholders
 
-Built filters using slicers for Age Group, Gender, Condition
-
-❓ Key Questions Answered
+❓ Questions Answered
 🩸 Which blood types show higher risk for specific conditions?
 
-💊 Do medications correlate with abnormal test results?
+💊 Do medications lead to more abnormal test results?
 
-🧓 Which age group has the most medical conditions?
+🧓 Which age groups are most frequently admitted?
 
-🧾 Who incurs the highest billing amounts on average?
+🧾 Which groups incur the highest billing costs?
 
-🧪 What’s the test result breakdown by medication and gender?
+🧪 How do gender and medication relate to test outcomes?
 
 Dashboard Preview
 📷 https://github.com/KeymariReese/Analyzing-Patient-Trends-Dashboard/blob/main/Screenshot%20(60).png
