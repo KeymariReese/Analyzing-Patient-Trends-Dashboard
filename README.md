@@ -1,146 +1,149 @@
-# Healthcare Patient Insights Dashboard (Power BI + SQL + Excel)
-This dashboard explores how medication relates to abnormal test results across age groups. Older adults showed the highest abnormalities, raising questions about treatment effectiveness. Additional visuals offer insights on patient demographics and admission trends.
+This dashboard explores patterns in patient test results, medications, and demographics. Visualizations highlight which medications and age groups are associated with abnormal test results, blood type risk patterns, and trends in admissions, billing, and stay length.
 
 🗂️ Dataset Used
+
 50,000+ rows of simulated hospital patient records
 
 Includes:
-Patient demographics (age, gender, blood type)
+
+Patient demographics: age, age group, gender, blood type
+
 Medical condition and medication info
+
 Admission and discharge details
-Billing amounts, doctors, hospitals, and test results
 
-
+Billing amounts, doctors, hospitals, insurance, and test results
 
 📌 Project Summary
+
 Explored healthcare patterns through:
-💊 Correlations between medication and abnormal test results
-🧓 Medical condition frequency by age group
-🩸 Most common conditions based on blood type
-🧪 Test result outcomes segmented by gender and medication
+
+💊 Medication correlations with abnormal test results
+
+🧓 Abnormal test results segmented by age group
+
+🩸 Common conditions and abnormal results by blood type
+
+🧪 Test result outcomes analyzed by gender and medication
+
 🧾 Trends in billing amounts and average length of stay
-📊 Breakdown by admission type, insurance provider, and hospital
 
+📊 Breakdowns by admission type, insurance provider, and hospital
 
+New Visualizations Include:
+
+KPI Cards: Abnormal Rate %, Inconclusive Rate %, Average Stay, Average Billing
+
+Trend Line Charts: Abnormal Rate over time
+
+Stacked/100% Stacked Columns: Test results by age group and over time
+
+Heatmaps: Abnormal rates by age group and admission type
+
+Bar Charts & Treemaps: Medications causing most abnormalities and blood type risk distribution
+
+Tables / Matrices: Rankings by medication, age group, or blood type
 
 🛠️ Tools & Skills Used
+
 Excel
+
 Data cleaning and formatting
-Grouped age ranges (e.g., Teen, Middle Age)
 
-
+Grouped age ranges (Teen, Adult, Middle Age, Senior)
 
 SQL
+
 Filtering, grouping, and aggregation
-CTEs and advanced functions like ROW_NUMBER()
 
-
+CTEs, ROW_NUMBER(), CASE statements
 
 Power BI
-Dashboard layout and visualizations
-Card KPIs, bar/column charts, tree maps, slicers
 
+Dashboard layout and interactive visualizations
 
+KPI cards, bar/column charts, pie/donut charts, tree maps, heatmaps, and slicers
 
 DAX
-Custom metrics like average stay and cost per age group
 
+Custom metrics like Abnormal Rate %, Inconclusive Rate %, Average Stay, and Avg Billing
 
+Ranking and percentage calculations by age group, blood type, and medication
 
 Data storytelling
-Clear visuals tied to healthcare strategy questions
 
-
+Translating healthcare data into actionable insights for decision-makers
 
 📁 Files Included
+
 README.md – This file
 
+Healthcare_Patient_Insights_Dashboard.pbix – Power BI file
 
+SQL_queries.sql – Key SQL queries used
 
-Healthcare Patient Insights Dashboard.pbix – Power BI file
-
-
-
-SQL_queries.sql – All key queries used
-
-
-
-healthcare_dataset_set.xlsx – Final cleaned dataset
-
-
+healthcare_data_set.xlsx – Final cleaned dataset
 
 🚀 Learning Goals
+
 Clean large, multi-column datasets efficiently in Excel
 
-Use SQL to extract trends in real-world health data
+Use SQL to extract trends in health data
 
-Build engaging Power BI dashboards with insights for decision-makers
+Build interactive, engaging dashboards in Power BI
 
-Practice healthcare-specific data analysis and communication
-
-
+Analyze healthcare-specific data and communicate insights effectively
 
 🔄 Project Workflow
-1. 🧹 Excel Data Cleaning
-Removed blank or duplicate rows
 
-Standardized column formats (e.g., Gender = "Male" or "Female")
+🧹 Excel Data Cleaning
 
-Created a new Age Group column for grouping analysis
+Removed blanks and duplicates
 
+Standardized formats (e.g., Gender = "Male"/"Female")
 
+Created Age Group column for analysis
 
-2. 🧾 SQL Querying
-Analyzed:
+🧾 SQL Querying
 
 Most frequent medical conditions by blood type
 
+Distribution of abnormal test results by medication and age group
+
 Average billing per doctor and hospital
 
-Distribution of abnormal test results by medication
+Used CASE, IN, GROUP BY, ROW_NUMBER() for logic and aggregation
 
-Used:
+📊 Power BI Dashboard
 
-CASE, IN, GROUP BY, ROW_NUMBER() for logic and insights
+Created KPI Cards: patient count, abnormal rate, inconclusive rate, avg stay, avg billing
 
+Designed Trend & Stacked Column Charts: abnormal test trends over time and by age group
 
+Heatmaps: abnormal rate by age group × admission type
 
-3. 📊 Power BI Dashboard
-Created KPIs: patient count, avg stay, avg billing
+Bar charts & Treemaps: medications causing most abnormalities, blood type risk distribution
 
-Designed with:
+Slicers: filters for age group, gender, blood type, hospital, and admission type
 
-Clustered column charts
-
-Pie and donut visuals
-
-Tree maps and slicers (filters by gender, age group, etc.)
-
-Made visuals interactive and easy to navigate for stakeholders
-
-
-
-
+Interactive, stakeholder-friendly layout
 
 ❓ Questions Answered
-🩸 Which blood types show higher risk for specific conditions?
 
-💊 Do medications lead to more abnormal test results?
 
-🧓 Which age groups are most frequently admitted?
+💊 Which medications are associated with the most abnormalities?
 
-🧾 Which groups incur the highest billing costs?
+🧓 Which age groups have the highest abnormal test rates?
+
+🧾 Which patients incur the highest billing costs?
 
 🧪 How do gender and medication relate to test outcomes?
 
-
-
-Dashboard Preview
-📷 https://github.com/KeymariReese/Analyzing-Patient-Trends-Dashboard/blob/main/Screenshot%20(60).png
-
 🙌 Let’s Connect
-If you're working in healthcare or exploring data storytelling, I'd love to connect!
+
+If you’re exploring healthcare data or data storytelling, I’d love to connect!
 
 📧 Email: keymari_reese@yahoo.com
+
 💼 LinkedIn: www.linkedin.com/in/keymari-reese-884315278
 
